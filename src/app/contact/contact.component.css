@@ -1,0 +1,125 @@
+#contact {width:100%; height:100%; margin: 0 auto; background: white; }
+
+.container {width:80%; height:auto; margin: auto; padding: 50px 0; align-items: center;}
+
+.header-container{
+    display: flex; 
+    width: 100%;
+    height: auto;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    display: inline-block;
+}
+
+.nav-bar{
+    height: auto;
+    margin-top: 0;
+    flex: 0 1 auto;
+    display: inline-block;
+    width: 100%;
+}
+
+.nav-bar ul{
+    float: right;
+    list-style-type: none;
+    vertical-align: middle;
+    margin: auto;
+}
+
+.nav-bar li{
+    display: inline-block;
+    padding: 12px;
+    vertical-align: middle;
+    margin: auto;
+}
+
+.nav-bar a{
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+    vertical-align: middle;
+    margin: auto;
+}
+
+.nav-bar a:hover{
+    color: gray;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+#contact .container form input,
+#contact .container form textarea {
+    box-shadow: 10px 10px 10px grey;
+	width:97.4%;
+	height:30px;
+	padding:5px 10px;
+	font-size: 12px;
+	color: black;
+	letter-spacing:1px;
+	background: white;
+	border:2px solid #FFF;
+	margin-bottom:25px;
+  -webkit-transition:all .1s ease-in-out;
+	-moz-transition:all .1s ease-in-out;
+	-ms-transition:all .1s ease-in-out;
+	-o-transition:all .1s ease-in-out;
+	transition:all .1s ease-in-out;}
+
+#contact .container form input:focus,
+#contact .container form textarea:focus {
+	color:black;}
+
+#contact .container form textarea {
+	height:150px;}
+
+#contact .container form .submit {
+	width:100%;
+	padding:5px 10px;
+	font-size: 12px;
+	letter-spacing:1px;
+	background-image: linear-gradient(to bottom right, #CB356B, #BD3F32);
+	height:40px;
+	text-transform:uppercase;
+	letter-spacing:1px;
+	color:white;
+	border:2px solid #b43838;
+  -webkit-transition:all .6s ease-in-out;
+	-moz-transition:all .6s ease-in-out;
+	-ms-transition:all .6s ease-in-out;
+	-o-transition:all .6s ease-in-out;
+	transition:all .6s ease-in-out;}
+
+#contact .container form .submit:hover {
+	color:white;
+	border:2px solid #dd4545;
+	background: #b43838;
+	cursor:pointer;}
+
+#contact .container form .required {
+    color:#b43838;}
+    
+.heading{
+    text-align: center;
+    margin: auto;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 36px;
+    line-height: 48px;
+    padding-bottom: 48px;
+}
+
+.title{
+    float: left;
+    color: black;
+    height: auto;
+    padding: 12px;
+    font-size: 30px;
+}
+
+.title a:hover{
+    color: black !important;
+}

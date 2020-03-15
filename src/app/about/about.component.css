@@ -1,0 +1,85 @@
+#contact {width:100%; height:100%; margin: 0 auto; background: white; }
+
+.container {
+    width:80%; 
+    height:auto; 
+    margin: auto; 
+    padding: 50px 0;
+    text-align: center;
+}
+
+.nav-bar{
+    height: auto;
+    margin-top: 0;
+    flex: 0 1 auto;
+    display: inline-block;
+    width: 100%;
+}
+
+.nav-bar ul{
+    float: right;
+    list-style-type: none;
+    vertical-align: middle;
+    margin: auto;
+}
+
+.nav-bar li{
+    display: inline-block;
+    padding: 12px;
+    vertical-align: middle;
+    margin: auto;
+}
+
+.nav-bar a{
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+    vertical-align: middle;
+    margin: auto;
+}
+
+.nav-bar a:hover{
+    color: gray;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.title{
+    float: left;
+    color: black;
+    height: auto;
+    padding: 12px;
+    font-size: 30px;
+}
+
+.title a:hover{
+    color: black !important;
+}
+
+.tile{
+    width: 220px;
+    height: 220px;
+    margin: 20px;
+    box-shadow: 10px 10px 10px 10px grey;
+    padding: 20px;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.centered{
+    width: 220px;
+    height: 220px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.tile h3{
+    vertical-align: middle;
+    margin: auto;
+    width: auto;
+    height: auto;
+}
